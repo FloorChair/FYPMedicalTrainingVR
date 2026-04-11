@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "XRFaceButtons",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "068c6059-3c74-4f05-83cf-941c77770116",
+            "actions": [
+                {
+                    "name": "OptionsButton",
+                    "type": "Button",
+                    "id": "d4d35fa6-e69b-4c7e-bfaa-801e65d7d01a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ZoomButton",
+                    "type": "Button",
+                    "id": "c13c342b-5bd2-444d-802e-11fc75cc88aa",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightButton",
+                    "type": "Button",
+                    "id": "e72dde7c-8a25-4802-985e-210bc3d1f16a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8bcca08e-fb06-458f-b900-341ab553d863",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OptionsButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3eea5891-e26a-40ab-a839-1eb77fb1daf2",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZoomButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77a4ec60-faa6-44ed-b1ab-fdbf0c361eb2",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
